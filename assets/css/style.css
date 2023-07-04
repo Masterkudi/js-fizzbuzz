@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #083B4C;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.chess-container {
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.chess-square {
+    margin: 1rem;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    width: calc(100% / 10);
+}
+
+.fizz {
+    background-color: #0CD6A1;
+  }
+
+.buzz {
+    background-color: #FFD166;
+  }
+
+  .fizzbuzz {
+    background-color: #F0466F;
+  }
+
+  .number {
+    background-color: #1289B2;
+  }
