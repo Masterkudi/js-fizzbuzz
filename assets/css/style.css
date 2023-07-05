@@ -23,22 +23,21 @@ h1 {
 .chess-square {
     margin: 1rem;
     aspect-ratio: 1/1;
-    border: 1px solid black;
     width: calc(100% / 10);
 }
 
-.fizz {
+.fizz.chess-square {
     background-color: #0CD6A1;
   }
 
-.buzz {
+.buzz.chess-square {
     background-color: #FFD166;
   }
 
-  .fizzbuzz {
+.fizzbuzz.chess-square {
     background-color: #F0466F;
   }
 
-  .number {
+.number.chess-square {
     background-color: #1289B2;
   }
